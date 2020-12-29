@@ -8,14 +8,14 @@ using namespace std;
 //MediaPlayer Interface
 class MediaPlayer{
 	public:
-		void play(string audioType, string fileName) = 0;
+		virtual void play(string audioType, string fileName) = 0;
 };
 
 //AdvancedMediaPlayer Interface
 class AdvancedMediaPlayer{
 	public:
-		void playVlc(string fileName);
-		void playMp4(string fileName);
+		virtual void playVlc(string fileName) = 0;
+		virtual void playMp4(string fileName) = 0;
 };
 
 //Concrete class for AdvancedMediaplayer Interface
@@ -79,8 +79,8 @@ class AudioPlayer : public MediaPlayer{
 				cout << "Playing mp3 file name:- " << fileName << endl;
 			}
 			else if(audioType == "mp4" || audioType == "vlc"){
-				mediaAdapter = new MediaAdapter();
-				mediaAdapter->play(audioType);
+				mediaAdapter = new MediaAdapter(audioType);
+				mediaAdapter->play(audioType, fileName);
 			}
 			else{
 				cout << "Invalid media. " << audioType <<" format not supported" <<endl;
@@ -89,10 +89,10 @@ class AudioPlayer : public MediaPlayer{
 };
 int main()
 {
-	AudioPlayer *audio - new AudioPlayer();
+	AudioPlayer *audio = new AudioPlayer();
 	
 	audio->play("mp3", "hello.mp3");
 	audio->play("vlc", "hi.vlc");
 	audio->play("mp4", "world.mp4");
-	audio->paly("avi", "Anuj.avi");
+	audio->play("avi", "Anuj.avi");
 }
