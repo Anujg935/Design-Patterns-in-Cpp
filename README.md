@@ -111,3 +111,13 @@ Gold Subscription :- Cost = Cost of Basic + 250, features = features of basic + 
 Platinum Subscription :- Cost = cost of Gold + 500, features = feature of gold + "TV Screen, 4k Content, "<br/>
 
 File demonstrating Decorator Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/Decorator_design_Pattern.cpp)
+
+- ### Flyweight Design Pattern
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.<br/>
+Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found. <br/>
+We are going to use hashmap for storing the objects.<br/>
+
+We are going to make this pattern by drawing 20 circles of different locations but we will create only 3 objects. <br/>
+Only 3 colors are available so color property is used to check already existing Circle objects.<br/>
+
+File demonstrating Flyweight Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/Flyweight_design_Pattern.cpp)
