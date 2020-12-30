@@ -98,3 +98,16 @@ We are going to make a interface of shape and Color and make a bridge class whic
 
 File demonstrating Bridge Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/Bridge_design_Pattern.cpp)
 
+- ### Decorator Design Pattern
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure.<br/>
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.<br/>
+
+In this we are going to make a OTT Platform subscription Model. <br/>
+In which there are going to be 3 types of subscriptions<br/>
+Basic, Gold and Platinum<br/>
+Every type of subscription will have some cost and features<br/> 
+Basic Subscription :- Cost = 250, features = "Mobile Screen, 720p Content, "<br/>
+Gold Subscription :- Cost = Cost of Basic + 250, features = features of basic + "Laptop Screen, 1080p Content, "<br/>
+Platinum Subscription :- Cost = cost of Gold + 500, features = feature of gold + "TV Screen, 4k Content, "<br/>
+
+File demonstrating Decorator Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/Decorator_design_Pattern.cpp)
