@@ -1,6 +1,6 @@
 # Design-Patterns-in-Cpp
 Basic Design patterns in C++. All codes snippets are well documented easily understandable.
-![Design Pattern](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fkkempin%2Fshort-summary-of-design-patterns-part-ii-structural-patterns-350a8ec49006&psig=AOvVaw1GnEZcjwK-Ev6jWbVIQgrV&ust=1609451687057000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDz0P3Y9u0CFQAAAAAdAAAAABAJ)
+![Design Pattern](https://miro.medium.com/max/630/1*y1i8Qz-s3VFijV6bUiRQFg.png)
 ## Following are the Design Patterns in this Repositoty:-
 
 - ### Factory Design Pattern
