@@ -121,3 +121,14 @@ We are going to make this pattern by drawing 20 circles of different locations b
 Only 3 colors are available so color property is used to check already existing Circle objects.<br/>
 
 File demonstrating Flyweight Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/Flyweight_design_Pattern.cpp)
+
+- ### MVC Design Pattern
+MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to separate application's concerns.<br/>
+Model - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.<br/>
+View - View represents the visualization of the data that model contains.<br/>
+Controller - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.<br/>
+
+We are going to make aStudent object as a Model<br/>
+A student view to view all the details. A student controller to controll the model to update the data in the Model obj and call view whenever needed.<br/>
+
+File demonstrating Flyweight Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/MVC_design_Pattern.cpp)
