@@ -131,4 +131,4 @@ Controller - Controller acts on both model and view. It controls the data flow i
 We are going to make aStudent object as a Model<br/>
 A student view to view all the details. A student controller to controll the model to update the data in the Model obj and call view whenever needed.<br/>
 
-File demonstrating Flyweight Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/MVC_design_Pattern.cpp)
+File demonstrating MVC Design Pattern :-[Link](https://github.com/Anujg935/Design-Patterns-in-Cpp/blob/master/MVC_design_Pattern.cpp)
